@@ -1,0 +1,26 @@
+{
+  "name": "server-agrovision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Handlers/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Handlers/index.js",
+    "dev": "nodemon Handlers/index.js"
+  },
+  "keywords": [],
+  "author": "ridho hery",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.11.0",
+    "@hapi/hapi": "^21.3.2",
+    "@tensorflow/tfjs": "^4.7.0",
+    "express": "^4.18.2",
+    "express-cache-controller": "^1.1.0",
+    "firebase": "^9.23.0",
+    "firebase-admin": "^11.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

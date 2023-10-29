@@ -1,0 +1,6 @@
+flask
+numpy
+pillow
+scikit-image
+firebase-admin
+tensorflow
